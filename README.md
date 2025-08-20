@@ -130,7 +130,7 @@ MongoDB → Stubbed out with service functions (db.py). In production, would fet
 
 Config → Handled via Pydantic Settings; in Colab we use defaults/env vars.
 
-Cloudflare Tunnel (Recommended)
+Cloudflare Tunnel 
 
 Install cloudflared:
 
@@ -163,5 +163,6 @@ Modular code under app/models, app/services, app/utils.
 FastAPI server (app/main.py).
 
 Mock Kafka/Mongo integration for Colab.
+
 
 Full working API with example scoring output.
